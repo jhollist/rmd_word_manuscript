@@ -1,0 +1,90 @@
+---
+title: "Untitled"
+output: 
+  word_document:
+    reference_docx: manuscript_template.docx   
+author: 
+- "Author First ^\\*^ ^*1*^, Author Second ^*2*^"
+- "^*1*^ Organization, Department, Address, ST 00000"
+- "^*2*^ Organization, Department, Address, ST 00000"
+- "^\\*^  *corresponding author: email@email.com*"
+bibliography: manuscript.bib
+csl: plos.csl
+abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in sem sed sem pharetra eleifend vitae id massa. Curabitur et erat sit amet enim gravida dapibus quis vel ex. Maecenas luctus suscipit magna id vehicula. Quisque tincidunt auctor dignissim. Nunc vitae nulla vel lorem facilisis interdum non in mi. Donec fringilla luctus lacus ut egestas. Pellentesque eget tellus et ante tristique euismod. Proin at scelerisque ex, ac faucibus sem. In nec efficitur nulla. Nam libero augue, tristique et neque sed, pellentesque commodo lacus. Morbi vitae ultrices arcu. Suspendisse elit neque, placerat vitae venenatis id, auctor vestibulum augue. Vivamus iaculis magna at sapien sodales, a sagittis tellus sagittis. Sed laoreet ac massa id fringilla. In et enim eget ante tincidunt aliquet ut in risus. In vestibulum, nisl non viverra ullamcorper, odio nisl scelerisque sapien, vitae ornare neque odio ut odio. Maecenas vitae leo rhoncus, egestas quam ac, dapibus eros. Quisque molestie venenatis urna quis malesuada. Sed malesuada semper malesuada. Nulla aliquet maximus urna eu eleifend. Suspendisse elementum est vel ornare pulvinar. Curabitur quis aliquet massa, eget sollicitudin tellus. Phasellus tempus urna molestie finibus ultricies.
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(captioner)
+opts_chunk$set(echo = TRUE, fig.width=6, fig.height=5)
+tab_num <- captioner(prefix = "Table")
+fig_num <- captioner(prefix = "Figure")
+
+```
+
+# Introduction
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in sem sed sem pharetra eleifend vitae id massa. Curabitur et erat sit amet enim gravida dapibus quis vel ex. Maecenas luctus suscipit magna id vehicula. Quisque tincidunt auctor dignissim. Nunc vitae nulla vel lorem facilisis interdum non in mi. Donec fringilla luctus lacus ut egestas. Pellentesque eget tellus et ante tristique euismod. Proin at scelerisque ex, ac faucibus sem. In nec efficitur nulla. Nam libero augue, tristique et neque sed, pellentesque commodo lacus. Morbi vitae ultrices arcu. Suspendisse elit neque, placerat vitae venenatis id, auctor vestibulum augue. Vivamus iaculis magna at sapien sodales, a sagittis tellus sagittis. Sed laoreet ac massa id fringilla. In et enim eget ante tincidunt aliquet ut in risus. In vestibulum, nisl non viverra ullamcorper, odio nisl scelerisque sapien, vitae ornare neque odio ut odio[@lakewatch2001department; @pebesma2005sp]. Maecenas vitae leo rhoncus, egestas quam ac, dapibus eros. Quisque molestie venenatis urna quis malesuada. Sed malesuada semper malesuada. Nulla aliquet maximus urna eu eleifend. Suspendisse elementum est vel ornare pulvinar. Curabitur quis aliquet massa, eget sollicitudin tellus. Phasellus tempus urna molestie finibus ultricies.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in sem sed sem pharetra eleifend vitae id massa. Curabitur et erat sit amet enim gravida dapibus quis vel ex. Maecenas luctus suscipit magna id vehicula. Quisque tincidunt auctor dignissim. Nunc vitae nulla vel lorem facilisis interdum non in mi. Donec fringilla luctus lacus ut egestas. Pellentesque eget tellus et ante tristique euismod. Proin at scelerisque ex, ac faucibus sem. In nec efficitur nulla. Nam libero augue, tristique et neque sed, pellentesque commodo lacus. Morbi vitae ultrices arcu. 
+
+Suspendisse elit neque, placerat vitae venenatis id, auctor vestibulum augue. Vivamus iaculis magna at sapien sodales, a sagittis tellus sagittis. Sed laoreet ac massa id fringilla. In et enim eget ante tincidunt aliquet ut in risus[@gesch2009national]. In Hollister [-@lakemorpho2014], nisl non viverra ullamcorper, odio nisl scelerisque sapien, vitae ornare neque odio ut odio. Maecenas vitae leo rhoncus, egestas quam ac, dapibus eros. Quisque molestie venenatis urna quis malesuada. Sed malesuada semper malesuada. Nulla aliquet maximus urna eu eleifend. Suspendisse elementum est vel ornare pulvinar. Curabitur quis aliquet massa, eget sollicitudin tellus. Phasellus tempus urna molestie finibus ultricies.
+
+# Methods
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in sem sed sem pharetra eleifend vitae id massa. Curabitur et erat sit amet enim gravida dapibus quis vel ex. Maecenas luctus suscipit magna id vehicula. Quisque tincidunt auctor dignissim. Nunc vitae nulla vel lorem facilisis interdum non in mi. Donec fringilla luctus lacus ut egestas. Pellentesque eget tellus et ante tristique euismod. Proin at scelerisque ex, ac faucibus sem. In nec efficitur nulla. Nam libero augue, tristique et neque sed, pellentesque commodo lacus. Morbi vitae ultrices arcu. 
+
+```{r codechunk}
+rnorm(10)
+mean(rnorm(10))
+```
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in sem sed sem pharetra eleifend vitae id massa. Curabitur et erat sit amet enim gravida dapibus quis vel ex. Maecenas luctus suscipit magna id vehicula. Quisque tincidunt auctor dignissim. Nunc vitae nulla vel lorem facilisis interdum non in mi. Donec fringilla luctus lacus ut egestas. Pellentesque eget tellus et ante tristique euismod. Proin at scelerisque ex, ac faucibus sem. In nec efficitur nulla. Nam libero augue, tristique et neque sed, pellentesque commodo lacus. Morbi vitae ultrices arcu. 
+
+# Results
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in sem sed sem pharetra eleifend vitae id massa. Curabitur et erat sit amet enim gravida dapibus quis vel ex. Maecenas luctus suscipit magna id vehicula. Quisque tincidunt auctor dignissim. Nunc vitae nulla vel lorem facilisis interdum non in mi. Donec fringilla luctus lacus ut egestas (`r fig_num("figure", display = "cite")`). Pellentesque eget tellus et ante tristique euismod. Proin at scelerisque ex, ac faucibus sem. In nec efficitur nulla. Nam libero augue, tristique et neque sed, pellentesque commodo lacus. Morbi vitae ultrices arcu. 
+
+```{r figure1, echo=FALSE, fig.width=6, warning=FALSE, message=FALSE}
+plot(iris$Petal.Length,iris$Petal.Width)
+```
+`r fig_num("figure","An example of my first FABULOUS figure.")`
+
+## Section 2
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in sem sed sem pharetra eleifend vitae id massa. Curabitur et erat sit amet enim gravida dapibus quis vel ex. Maecenas luctus suscipit magna id vehicula. Quisque tincidunt auctor dignissim (`r tab_num("table", display = "cite")`). Nunc vitae nulla vel lorem facilisis interdum non in mi. Donec fringilla luctus lacus ut egestas. 
+
+```{r Table1, results='asis', echo=FALSE}
+knitr::kable(head(iris))#,format="latex")
+```
+
+`r tab_num("table", "Everybody loves a table, especially tables of very novel data such as the iris data which has never been seen before.")`
+
+### Section 3
+
+Pellentesque eget tellus et ante tristique euismod. Proin at scelerisque ex, ac faucibus sem. In nec efficitur nulla. Nam libero augue, tristique et neque sed, pellentesque commodo lacus(`r tab_num("anothertable", display = "cite")`). Morbi vitae ultrices arcu. 
+
+```{r tables_rock, echo = FALSE}
+knitr::kable(head(mtcars[1:4]))
+```
+
+`r tab_num("anothertable", "This is table number 2. Neat!")`
+
+#### Section 4
+
+Suspendisse elit neque, placerat vitae venenatis id, auctor vestibulum augue. Vivamus iaculis magna at sapien sodales, a sagittis tellus sagittis. Sed laoreet ac massa id fringilla. In et enim eget ante tincidunt aliquet ut in risus[@gesch2009national]. In Hollister [-@lakemorpho2014], nisl non viverra ullamcorper, odio nisl scelerisque sapien, vitae ornare neque odio ut odio. Maecenas vitae leo rhoncus, egestas quam ac, dapibus eros. Quisque molestie venenatis urna quis malesuada. Sed malesuada semper malesuada. Nulla aliquet maximus urna eu eleifend. Suspendisse elementum est vel ornare pulvinar. Curabitur quis aliquet massa, eget sollicitudin tellus. Phasellus tempus urna molestie finibus ultricies.
+
+##### Section 5
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in sem sed sem pharetra eleifend vitae id massa. Curabitur et erat sit amet enim gravida dapibus quis vel ex. Maecenas luctus suscipit magna id vehicula. Quisque tincidunt auctor dignissim. Nunc vitae nulla vel lorem facilisis interdum non in mi. Donec fringilla luctus lacus ut egestas.
+
+###### Section 6
+
+Curabitur et erat sit amet enim gravida dapibus quis vel ex. Maecenas luctus suscipit magna id vehicula. Quisque tincidunt auctor dignissim. Nunc vitae nulla vel lorem facilisis interdum non in mi. Donec fringilla luctus lacus ut egestas.
+
+# Conclusions
+
+The end
+
+# Bibliography

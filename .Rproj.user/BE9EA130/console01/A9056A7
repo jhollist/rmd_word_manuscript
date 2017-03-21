@@ -1,0 +1,36 @@
+]0;/data/jhollist/rmd_word[?1034hjhollist@kali.epa.gov$ [Kjhollist@kali.epa.gov$ [Kjhollist@kali.epa.gov$ [Kjhollist@kali.epa.gov$ cp ../lakemorpho_manuscript/components/manuscript..[Kbib .
+]0;/data/jhollist/rmd_wordjhollist@kali.epa.gov$ cp[K[Kcp ../lakemorpho_manuscript/components/manuscript.bib .[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kecology.csl .
+]0;/data/jhollist/rmd_wordjhollist@kali.epa.gov$ [Kjhollist@kali.epa.gov$ [Kjhollist@kali.epa.gov$ cp ../lakemorpho_manuscript/components/ecology.csl .[1P[C[1P[1P[1P[1P[1P[1P[1@p[1@l[1@o[1@s
+]0;/data/jhollist/rmd_wordYou have new mail in /var/spool/mail/jhollist
+jhollist@kali.epa.gov$ ]0;/data/jhollist/rmd_word_manuscript[?1034hjhollist@kali.epa.gov$ [Kjhollist@kali.epa.gov$ git add [K[K[K[K[K rm[Km[Kemote -add origin https://github.com/jhollist/rmd_word_manuscript
+fatal: Not a git repository (or any parent up to mount point /data)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+]0;/data/jhollist/rmd_word_manuscriptjhollist@kali.epa.gov$ git initi
+git: 'initi' is not a git command. See 'git --help'.
+
+Did you mean this?
+	init
+]0;/data/jhollist/rmd_word_manuscriptjhollist@kali.epa.gov$ git initi[K
+Initialized empty Git repository in /data/jhollist/rmd_word_manuscript/.git/
+]0;/data/jhollist/rmd_word_manuscriptjhollist@kali.epa.gov$ git initiremote -add origin https://github.com/jhollist/rmd_word_manuscript
+error: unknown switch `a'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags|--no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | -d | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+]0;/data/jhollist/rmd_word_manuscriptjhollist@kali.epa.gov$ git remote -add origin https://github.com/jhollist/rmd_word_manuscript[C[1P
+]0;/data/jhollist/rmd_word_manuscriptjhollist@kali.epa.gov$ git push origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/jhollist/rmd_word_manuscript'
+]0;/data/jhollist/rmd_word_manuscriptjhollist@kali.epa.gov$ git add -A

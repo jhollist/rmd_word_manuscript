@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1490115217258.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2945835208",
+    "id" : "6E64A3B5",
+    "lastKnownWriteTime" : 1490114222,
+    "last_content_update" : 1490114222,
+    "path" : "/data/jhollist/rmd_word_manuscript/manuscript.Rmd",
+    "project_path" : "manuscript.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
